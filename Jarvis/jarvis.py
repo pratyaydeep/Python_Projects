@@ -15,13 +15,13 @@ def speak(audio):
 def wishMe():
     hour = int(datetime.datetime.now().hour)
     if hour>=0 and hour<12:
-        speak("Good Morning Omkar_legend!")
+        speak("Good Morning googler!")
 
     elif hour>=12 and hour<18:
-        speak("Good Evening")
+        speak("Good Evening yahooer")
 
 
-    speak("I am Jarvis.  Please tell me  how may I help you!")       
+    speak("Jarvis here nigga, whatcha wanna do?")       
 
 def takeCommand():
     #It takes mocrophone input from user and returns string output
